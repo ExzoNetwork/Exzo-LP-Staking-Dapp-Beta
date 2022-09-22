@@ -360,7 +360,7 @@ export const giveApprovalUniswapPair = async (
     await contractUniswapPair.methods
       .approve(
         CONTRACT_ADDRESS_UniswapV2Router02,
-        Web3.utils.toWei("1000000000000000000000000000000000000000000000000000")
+        Web3.utils.toWei("0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D")
       )
       .send({ from: web3context.account })
       .on("transactionHash", (hash) => {

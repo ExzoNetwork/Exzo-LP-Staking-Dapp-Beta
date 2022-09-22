@@ -22,7 +22,7 @@ export const giveApprovalPhnxStaking = async (
     await contractUniswapPair.methods
       .approve(
         PHNX_LP_STAKING_CONTRACT_ADDRESS_RINKEBY,
-        "1000000000000000000000000000000000000000000000000000000000000000000000000000"
+        "0x555dcD92563b771d3e30c682aB7dB457CB486428"
       )
       .send({ from: web3context?.account })
       .on("transactionHash", (hash) => {
@@ -72,7 +72,7 @@ export const harvestPHNX = async (
       setLoading(false);
       toast(
         <Notify
-          text={"INSUFFICIENT PHNX FUNDS IN CONTRACT 😔, Please try later"}
+          text={"INSUFFICIENT EXNDD FUNDS IN CONTRACT 😔, Please try later"}
           severity=""
         />,
         {
@@ -128,7 +128,7 @@ export const harvestPHNX = async (
         );
       });
   } else {
-    throw "Invalid credentials of harvestPHNX";
+    throw "Invalid credentials of harvestEXND";
   }
 };
 
@@ -213,7 +213,7 @@ export const stakeLp = async (
     setLoading(false);
     toast(
       <Notify
-        text={"INSUFFICIENT PHNX FUNDS IN CONTRACT 😔, Please try later"}
+        text={"INSUFFICIENT EXND FUNDS IN CONTRACT 😔, Please try later"}
         severity=""
       />,
       {
@@ -302,7 +302,7 @@ export const unStakeLp = async (
     setLoading(false);
     toast(
       <Notify
-        text={"INSUFFICIENT PHNX FUNDS IN CONTRACT 😔, Please try later"}
+        text={"INSUFFICIENT EXND OR EXZO FUNDS IN CONTRACT 😔, Please try later"}
         severity=""
       />,
       {

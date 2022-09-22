@@ -85,7 +85,7 @@ const Pool = () => {
             // </p>
             <div className="connect-wallet-txt">
               <div style={{}} className="cardContent">
-                <span className="yourStakeHeading">Your Stake</span>
+                <span className="yourStakeHeading">Your Value Locked</span>
                 <div className="pricesAlignment">
                   <div>
                     <p className="cardPara">
@@ -138,7 +138,7 @@ const Pool = () => {
                               lowercase: true,
                             }
                           )}{" "}
-                      PHNX-ETH LP)
+                      EXND-ETH LP)
                     </p>
                   </div>
                 </div>
@@ -149,20 +149,19 @@ const Pool = () => {
               className="connect-wallet-txt"
               style={{ fontSize: "20px", width: "60%" }}
             >
-              Connect your wallet to provide liquidity and start earning PHNX
+              Connect your wallet to provide liquidity and start earning EXND
               tokens
             </p>
           )}
 
-          <img src={handsImg} className="img-hands" />
         </div>
         {/* <p>{balanceEth}</p> */}
         <div className="container-div2">
           <div className="connect-wallet-div">
-            <p className="phnx-heading">PhoenixDAO LP Staking</p>
+            <p className="phnx-heading">Exzo Network LP Staking</p>
             <p className="phnx-subheading">
-              Stake ETH/PHNX LP Tokens and earn <br />
-              rewards in PHNX
+              Stake ETH/EXND LP Tokens and earn <br />
+              rewards in EXND or EXZO.
             </p>
 
             {account && active ? (
@@ -180,7 +179,7 @@ const Pool = () => {
                     // disabled={loading}
                     // onClick={_handleSupply}
                   >
-                    Get PHNX/ETH LP Token
+                    Get EXND/ETH LP Token
                   </Button>
                 </Link>
               </div>

@@ -22,7 +22,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #282d34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -33,7 +33,7 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #0b2ffa;
 }
 
 @keyframes App-logo-spin {
@@ -246,6 +246,15 @@ input[type="number"] {
 .navIconsList {
   margin-top: 80px !important;
 }
+.token-container {
+  background-color: #f8faff !important;
+}
+
+.css-1u3bzj6-MuiFormControl-root-MuiTextField-root {
+  background-color: #f3f9ff !important;
+  border: 1px solid #d8dfe6 !important;
+  border-radius: 25px !important;
+}
 
 @media (max-width: 500px) {
   .sideBarFullScreen {
@@ -376,13 +385,18 @@ input[type="number"] {
 /* Handle */
 
 ::-webkit-scrollbar-thumb {
-  background: #9391ff;
+  background: #0e0af7;
   border-radius: 8px;
+}
+
+.css-78trlr-MuiButtonBase-root-MuiIconButton-root {
+  background: #0e0af7 !important;
+  color: #fff !important;
 }
 
 html {
   overflow-y: scroll;
-  scrollbar-color: rgba(56, 16, 255, 0.55) #fff;
+  scrollbar-color: linear-gradient(309deg, rgba(17,32,152,1) 4%, rgba(29,44,172,1) 17%, rgba(25,64,187,1) 25%, rgba(29,60,210,1) 71%, rgba(37,76,208,1) 83%, rgba(38,89,245,1) 96%);
   scrollbar-width: thin;
   border-radius: 40px;
 
@@ -394,8 +408,12 @@ html {
   overflow: hidden;
 }
 
+.versionSingleButton {
+  background-color: #091aff !important;
+}
+
 * {
-  scrollbar-color: #9391ff;
+  scrollbar-color: #eeeeee;
   scrollbar-width: thin;
 }
 

@@ -7,10 +7,10 @@ div.container-div {
   padding-bottom: 100px;
 }
 .cardPara {
-  color: #413ae2;
+  color: #1a1a1a;
   font-size: 50px;
   font-weight: bold;
-  text-shadow: 0px 0px 1px #413ae2;
+  text-shadow: 0px 0px 1px #0b27fa;
   padding: 0px;
   margin: 0px;
 }
@@ -24,14 +24,11 @@ div.gradient-div {
   padding: 35px 50px;
   align-items: center;
   justify-content: space-between;
-  background: linear-gradient(
-    90deg,
-    rgba(65, 58, 226, 0.3) 0%,
-    rgba(255, 0, 247, 0.08) 70.13%
-  );
-  border: 0.5px solid rgba(65, 58, 226, 0.3);
+  background: none;
   box-sizing: border-box;
-  backdrop-filter: blur(2px);
+  background-color: #fff;
+  border: 2px solid #eee;
+  margin-right: 600px;
   /* -webkit-filter: ; */
   border-radius: 13px;
   position: relative;
@@ -51,6 +48,16 @@ img.img-hands {
   top: -40px;
   height: auto;
 }
+
+.css-jh47zj-MuiButtonBase-root-MuiButton-root {
+  background: linear-gradient(309deg, rgba(18,91,214,1) 4%, rgba(17,26,245,1) 23%, rgba(10,60,219,1) 36%, rgba(9,45,217,1) 66%, rgba(8,57,222,1) 83%, rgba(16,71,238,1) 96%) !important;
+  border-radius: 25px !important;
+  stroke: #fff;
+  stroke-width: 2;
+  stroke-dasharray: 422, 0;
+  transition: all 0.35s linear;
+}
+
 div.container-div2 {
   display: flex;
   flex-direction: row;
@@ -80,10 +87,10 @@ p.phnx-heading {
     justify-content: space-between;
     background: linear-gradient(
       90deg,
-      rgba(65, 58, 226, 0.3) 0%,
-      rgba(255, 0, 247, 0.08) 70.13%
-    );
-    border: 0.5px solid #413ae24d;
+      rgb(133, 186, 235) 0%,
+      rgb(121, 177, 250) 70.13%
+    ) !important;
+    border: 0.5px solid #2864d34d;
     box-sizing: border-box;
     backdrop-filter: blur(2px);
     /* -webkit-filter: ; */
@@ -360,10 +367,10 @@ img.img-landing-logo {
     margin-top: 30px;
   }
   .cardPara {
-    color: #413ae2;
+    color: rgb(0, 68, 255);
     font-size: 35px;
     font-weight: bold;
-    text-shadow: 0px 0px 1px #413ae2;
+    text-shadow: 0px 0px 1px #292ce7;
     padding: 0px;
     margin: 0px;
   }
